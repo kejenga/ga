@@ -1,0 +1,25 @@
+How to centre a div
+Normalise/reset.css
+
+Can utilise "container" - give it a width
+- to centre, apply margin, two values
+- zero to top & bottom; ato to either side
+
+Normally background spans and content is centred
+- so use a class which can be applied to multiple elements
+- added a div with the container class around the text - so the header is full width and the content has been centred
+
+borders weight style color
+
+Complete exercise - background-size: cover;
+overflow: hidden;
+
+Git is a versioning tool
+Allows us to track what changes what have been made and can undo sections
+Can see group work and who has made what changes
+You don't save versions; it tracks history
+GitHub is a platform for GitRepositories - GitHub is one of the Git platforms
+End up with a public portfolio of code - open source
+Can then take forward to an employer - it's public
+
+Can attach a message before sending it to repository; use a descriptive message to explain what you'd done

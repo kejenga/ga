@@ -1,0 +1,76 @@
+File name conventions and best practices
+- HTML template - can be used to quickstart project
+- normalize.css is open source project which resets the browser differences
+- normalize is above because our own style with override it
+- comment includes another project - inlcude normalize or reset, and then include style beneath
+
+&copy; - copyright
+&reg; - registered
+&amp; - &
+
+http://cdnjs.com - content development network javascript - code libraries
+
+BOX MODEL
+- every element on the page is in a box which you can manipulate
+- size of box will change depending on certain factors
+- margin is OUTSIDE element border; padding is INSIDE element border
+
+Box model hack - enforces margin outside, padding inside
+*{
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  box-sizing:border-box;
+}
+Defines padding 
+
+* defines universal element - applies to every element
+To create a comment, select text, Ctrl + /
+
+Nested Selectors - target different elements on the page 
+e.g. have a paragraph inside and outside certain elements
+- then you can target specific tags
+- indentation is helpful to identify parts of the html
+- so if you nest a <p> inside <nav> then you can style the <nav> differently to <p> inside <div> (because you style nav and div separately)
+
+html
+  body
+    header
+	h2
+  #main
+	h2
+	p
+
+parentelement childelement { }
+
+Order of styles doesn't matter, but order of declarations does, because lower things will override upper ones
+
+
+ul li:first-child {
+
+nth-of-child(even)
+
+ul li:last-child - makes the last one style differently - e.g. end of navigation |
+
+Go over resume homework and specify nested elements & pseudo-classes
+
+p em:first-child {
+	font-family: Times, Verdana, serif;
+	font-size: 15px;
+	color: #ED0657;
+	text-transform:uppercase;
+}
+
+ul li:first-child {
+	background-color: pink;
+}
+
+ul p {
+	text-transform: lowercase;
+}
+
+article p:first-letter {
+    float: left;
+    font-size: 60px;
+    line-height: 1;
+    color: #DDDDDD;
+    

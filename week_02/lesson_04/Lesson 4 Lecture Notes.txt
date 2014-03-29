@@ -1,0 +1,74 @@
+- Class IDs
+- HTML5 Structural Elements
+- Floats
+
+Way for us to specifically target elements on the page
+- use IDs as a hook
+- <tag name attribute="value"> where the value is self defined
+- IDs can only be used once per page
+- Classes can be used multiple times on a page
+- Elements can have multiple classes
+Make code as succinct as possible - common styles per paragraph - attach style to a class and then attach class to elements
+- ID much higher level of specificity than class
+
+.class-name {
+/* style goes here */
+ }
+
+#class {
+/* style goes here */
+ }
+
+In the HTML: <div id=""> <div class=""> and the "" refers to id or class names
+
+<div class="message error"> .message is first class; .error is second which overrides .message
+The space denotes multiple classes
+
+HTML5 Structural Elements
+Header, Aside, Footer
+New tags available in HTML5
+Developers used to use div id and div class for these
+These is shortened for us
+Use for semantic mark up
+(Aside - self-defined)
+
+Float is a CSS property that is used to layout a web page
+/* SIDEBAR */
+
+can give sections id
+Floating takes it outside the normal flow of the document and put it in the available space
+
+clear: both = clear the float on both left and right
+Can add one class to each of the img
+Or target a div with a class and put all the images in that (nested)
+
+Can clear in the footer
+Or can fix before that?
+Create a class "clear", define it as "clear: both" and can use this class wherever in html
+
+.clear {
+clear: both;
+ }
+
+<div class="clear"></div> in html BUT this is an empty element
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+ }
+
+.clearfix:after {
+    clear: both;
+}
+
+<div id="boxes2" class="clearfix"> because clearfix defined before you even float, you are being more proactive. You know what you're going to create will have floating, so fix that first and sort out content afterwards
+
+Put box model and clear id/class as part of your boilerplate
+
+When do I need <div> <section> <article>?
+
+Start talking about final project in the next few weeks.
+
+Homework: Try and finish this project as much as possible
+Plus articles etc

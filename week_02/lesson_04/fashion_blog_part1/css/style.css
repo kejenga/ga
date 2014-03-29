@@ -1,0 +1,147 @@
+/* 
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP                   
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firefox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+.clearfix:before,
+.clearfix:after {
+     content: ".";
+     display: table;
+}
+
+.clear:after {
+     clear: both;
+}
+
+body {
+     font-family: "Lato", sans-serif;
+     margin: 40px;
+}
+
+a {
+     text-decoration: none;
+     color: #000;
+}
+
+header a {
+     color: #f30000;
+}
+
+section {
+     margin-bottom: 30px;
+}
+
+.title {
+     font-size: 50px;
+     color: #f30000;
+     padding-right: 30px;
+}
+
+.subtitle {
+     font-size: 30px;
+}
+
+header nav a {
+     font-size: 25px;
+     color: #fff;
+     background-color: #000;
+     border-bottom: 2px solid #ececec;
+     margin: 30px -1px;
+     padding: 20px 50px;
+}
+
+header nav {
+     clear: both;
+}
+
+header nav a:first-child {    
+     margin-left: 0;
+}
+
+
+header h1, h2 {
+     font-weight: 550;
+     padding: 10px 0 10px 0;
+     float: left;
+}
+
+article {
+     border-bottom: 1px solid #ccc;
+}
+
+article h2 {
+     font-weight: 575;
+     font-size: 40px;
+     margin: 10px;
+}
+
+article h3 {
+     color: #ccc;
+     font-size: 40px;
+     margin: 50px 0 0 0;
+}
+
+article h4 {
+     text-align: right;
+     padding: 30px 0;
+}
+
+article h4 a {
+     color: #f30000;
+     font-weight: bold;
+}
+
+p, h4 a {
+     font-size: 18px;
+     line-height: 1.5;
+}
+
+article img { 
+     margin-bottom: 20px;
+}
+
+article p:first-letter {
+     float: left;
+     font-size: 100px;
+     line-height: 1;
+     color: #DDD;
+     padding: 10px;
+    }
+
+#content {
+     float: left;
+     width: 60%;
+     margin-top: 50px;
+}
+
+
+/* SIDEBAR */
+aside {
+     float: right;
+     width: 40%;
+     margin-top: 250px; 
+}
+
+aside p {
+     width: 75%;
+     padding: 50px;
+}
+
+footer {
+     clear: both;
+}
+

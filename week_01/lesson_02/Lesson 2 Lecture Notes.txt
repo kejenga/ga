@@ -1,0 +1,177 @@
+Review HTML basics & look at CSS basics
+
+- Review HTML
+- learn new tags
+- paths & navigating to other assets
+- Intro to CSS
+- Using colours and fonts
+
+When building sites, you will get content from customer
+- Fleetwood Mac: multipage site
+- Use # when you don't know where a link will lead to but want a link to appear
+- Is there a semantic way to tell the webpage that this is a navigation bar
+- wrap our links in <nav> tag; doesn't do anything to the actual content, but the markup is readable
+- have neat, semantic HTML - makes page render quicker and easier for Google to read it
+- HTML is about structure and semantics, not presentation
+- you can move presentational stuff into CSS so you can have lean HTML
+
+Important to supply alternate text for an image
+- if image breaks, text will be a placeholder
+- for accessibility (screen readers)
+- Google also mines alt text
+- set width and height attributes to the actual size of the image
+- you don't want to render a large image to resize because that takes a long time to load
+- two required attributes - src (source) and alt (alternative text)
+- width and height aren't required but the page won't save the space for the image
+
+Can use single or double quotes, but use double so as to not get mixed up with apostrophe use
+
+Tags can have multiple attributes
+
+Attributes don't go in a specific order; they just need to go after the tag name and be delimited by a space
+
+Mozilla Developer Network: https://developer.mozilla.org/en-US/
+- look up info here
+- e.g. search img and you can see all the attributes
+- attributes can become deprecated over time
+
+Image formats
+-.png - bitmap - isn't lossy but can be 8-bit or 32-bit - supports transparency
+-.gif - bitmap - can be animated - don't use gifs unless you want an animation
+-.jpg .jpeg - bitmap - written to compress (lossy format)
+-.svg - vector image - formatted as xml - saves instructions for how to build the image - as code it saves how to build that circle - will never lose detail when scaled - useless for photographs because file size will be huge - older browsers don't support it
+
+Artwork/iconography or photography
+Artwork/inconography is simpler; photography is more complex
+
+Paths & directory structure
+- good idea to have a solid directory with folders per each directory
+- just good organisation
+- forward slash indicates movement forward through directory
+- if move image to the parent folder, you have to move back a directory
+- <img src="../rumours.jpg">
+- ../ tells it to go up one folder; can repeat as often as necessary
+
+
+
+INTRO TO CSS - Cascading Style Sheets
+
+Separation of concerns - do one thing, and do it well
+HTML - content - gives semantics to content
+CSS - presentation - to describe what HTML should look like
+JS - behaviour
+All these things talk to each other but sit in separate files
+The benefit is that you know where to go to change a certain element of your site
+
+Allows us to style HTML
+- provides browser with rules for how content should be displayed
+- all CSS goes in a .css file and we reference this in our HTML
+
+<link rel="stylesheet" href="css/styles.css">
+We reference from HTML film not from CSS because the broswer goes to the HTl and requests the other information
+Goes in the <head>
+rel attribute tells it what kind of file we're linking e.g. RSS, sitemap (XML)
+href attribute tells it where to go for the file
+
+A document can reference multiple CSS files
+- sometimes we want to use a framework which provide default styles
+- then we might want to override some with our own styles
+
+Good to have consistent file naming
+
+What does CSS look like?
+
+For each paragraph, you open a block, and decalrations inside the block
+p {
+	colour: red;
+	font-weight: bold;
+}
+
+Property: value;
+So always need a start and end of block {}
+Use colon and semi-colon (ends declaration)
+
+Body encapsulates whole page, so attach to that
+General styles up top; specifics further down
+Color refers to text colour for the most part
+Can use a pseudo class - use a selector that is only enabled in a specific circumstance
+So for a pseudo class, use the selector:class
+There are many for links: a:hover; a:visited
+Fonts - serifs and sans serifs - need a way to set both
+- the default should be the one that is used the most
+
+Where possible, don't repeat yourself because you are watsing effort and writing more code than you need to: so you can separate selectors by comma and give a list of selectors to which the same properties are attached
+Compund property - can set a nuber of things in the same property
+So all your border info could go against the same 
+
+border: 2px dotted red;
+
+border-width: 2px;
+border-style: dotted;
+border-color: red;
+
+Colours can be set in a number of ways
+- use a colour word
+- use a hex code
+- 
+
+Add some spacing box model
+Every element has applied to it a box model (dimensions, padding, margin, border etc.)
+Very important to understand
+Padding is inside box; margin is outside the box
+
+DOM - document object model (this is the tree-structure of combined HTML, CSS, JS)
+- the DOM is live
+- can make changes and see what the browser's interpretation and memory of the code is
+- it's not changing your source file
+
+margin: 20px 40px 60px 80px
+The order here is important
+Never Eat Shredded Wheat
+
+Float tells it to push up the furthest thing in that direction and causes anything else to wrap around it
+float:right for example
+
+C stands for cascading - some elements cascade from body to the sub-elements
+Rules affect elements of children
+Not all attributes cascade
+More specific rules win out over less specific rules
+
+a:hover 
+nav a = only change anchors in nav
+nav a rule > a rule
+but still inherits rules from a
+
+To override specificity, add !important after the rule
+If you write your CSS properly, you shouldn't need to use this
+
+<link rel="stylesheet" href-"..."> CORRECT
+<style type="text/css"> ... </style> CAN BUT DON'T
+<p style="font-weight: bold;"> ... </p> DON'T
+One style sheet to put onto multiple pages is easier and cleaner
+SEPARATION OF CONCERNS
+
+Colours:
+Keywords
+Hex code - preferable - color: #a4a4a4
+RGB - color: rgb(255, 0, 0);
+HSL
+RGBA - declare transparent colours - color: rgba(255, 0, 0, 0.5); - rgb and alpha
+HSLA
+
+Font:
+Keyword, Font Name (font-family), Font stack
+
+Use tabs, not spaces; all your code should be in lowercase
+
+HOMEWORK
+Deadline: Thursday
+Build a resume for yourself
+There's a boilerplate in lessons 1 & 2
+Can rip the Fleetwood Mac files
+Drop your own content in
+A home page with profile, short bio
+A work experience page
+
+To hand in: can upload zip files
+Zip up homework - index, images, css etc. - upload to schoology

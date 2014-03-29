@@ -1,0 +1,82 @@
+Sublime is a text editor, not an IDE (Interactive Development Environment). 
+(GitHub has released Atom which is a clone)
+- can use notepad, but you have to handcode everything.
+- Sublime has syntax highlighter
+Power of front end lanuages is that you can see results immediately 
+
+There are six headline tags <h1> - <h6> 
+- ranked by importance/weight
+- use these semantically
+- use them in order so that they make sense
+
+Levels of indentation
+- ease of use; can see what is nested where
+- use tab to indent; to re-indent, select text and ctrl+[] to shift
+
+<ul> unordered list
+<ol> ordered list
+<li> list item
+
+Breakdown the opening and closing <ul> onto separate lines, and then indent list
+
+Make sure to close your tags, even though you won't always need to. Needs to be valid according to the W3C standard.
+
+Starting to to talk about hierarchy. If you take out <ul>, we have lost the indentation, plus the semantics of the list. The web browser needs to be able to read what the parent tag. The list item only identifies an item; the parent tag defines the kind of list item.
+
+http://validator.w3.org
+
+Boilerplate document is a good starting point for any webpage
+<! doctype html> - tells web browser that we're working with valid HTML5
+- have to make sure it's at the top - it's a self-closing type 
+- starts with a ! 
+- no other tags do this
+- older browsers will not render the page correctly
+There's a different doctype for each HTML type
+
+<html lang="en"> - everything else has to be under this tag </html>
+- sometimes tags need additional configuration
+- here we have specified an attribute
+- in this case the attribute is lang
+- so here we set language (lang) to English (en)
+- this is an ISO standard and can be looked up to change the language
+- helps search engines to know which language the page is in
+- have an attribute and a value - the value is delimited by "" - always quote the value of the attribute
+- <html> has two required child elements - <head> and <body> and that is the order
+- inside <head> we have metadata about website (not onscreen) - can contain <title>, metatags etc.
+- computers can understand different character sets - <meta charset="utf-8">
+- we can specify the table of characters
+- utf-8 has all the standard Latin characters (8/16 - 8-bit/16-bit)
+- can include RSS feed info
+- inside <body> we hold the content (onscreen)
+
+Some tags close themselves
+- if a tag doesn't have any content then it may not need a closing tag
+- e.g. a horizontal rule <hr>
+- only certain tags are self-closing
+- does this tag hold any content?
+- self-closing or otherwise, a tag can have an attribute <tag attribute="value">
+- a tag can have multiple values <tag att1="value" att2="value">
+
+<code></code> allows us to enter code on a webpage and it will look like code
+<a href=""></a> link - href is a required attribute for the anchor
+<strong></strong> embolden
+<em></em> emphasis
+
+Always close things in the order that they've been opened
+- a hyperlink which doesn't have the http:// will try to locate something inside the document
+- http:// and https:// are protocols
+- so: <a href="cookie.jpg"> will access that image within the same folder that the html file is saved
+- this is known as a relative URL
+
+Character entity = creating a specific symbol/character on the page &mdash; &nbsp;
+- use the thing that looks best? No use CSS to use the appropriate header
+
+<blockquote> Way of marking up a quotation
+- gives semantic meaning to the text
+- gives us something to style in CSS
+- the browser knows what it is
+- also you can have inline quotation
+- you can embed <cite> in <blockquote>
+- that marks up a citation i.e. -- author
+
+<a href="mailto:email@email"> will force open the email client; by embedding your email address, spambots can scrape the site, so you may get additional spam
