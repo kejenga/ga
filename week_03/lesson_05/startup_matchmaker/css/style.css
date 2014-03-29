@@ -47,9 +47,10 @@ Developer @GA in NYC
 
 body {
      color: #000;
+     background-color: #E8E8E8;
      font-size: 20px;
-     line-height: 1.4;
-     font-family: Garamond, Times, serif;
+     line-height: 1.2;
+     font-family: "Source Sans Pro", Arial, sans-serif;
      }
 
 
@@ -65,22 +66,18 @@ header {
      border-bottom: 2px solid #FDF731;
 }
 
-main {
-     background-image: url(../images/coworking.jpg) center center no-repeat;
-     background-size: cover;
-     overflow: hidden;
-}
-
 footer {
-     font-family: Verdana, Arial, sans-serif;
+     font-family: "Source Sans Pro", Arial, sans-serif;
      height: 100px;
      clear: both;
 }
 
 header h1 {
+     font-family: "Merriweather", Georgia, serif;
      color: #FDF731;
      float: left;
      margin-top: 25px;
+     padding-left: 10px;
 }
 
 nav {
@@ -100,7 +97,7 @@ nav li {
 }
 
 nav li a {
-     font-family: Verdana, Arial, sans-serif;
+     font-family: "Source Sans Pro", Arial, sans-serif;
      color: #fff;
      text-decoration: none;
      list-style: none;
@@ -119,49 +116,88 @@ footer {
      background-color: #cecece;
      text-align: center;
      margin: 0;
+     padding: 10px 0;
 }
 
 #notes,
 #container {
-     font-family: verdana, arial, sans-serif;
-     font-size: 16px;
+     font-family: "Source Sans Pro", Arial, sans-serif;
+     font-size: 20px;
      color: #000;
+}
+
+#aside {
+     background-image: url(../images/coworking.jpg);
+     background-size: cover;
+     height: 500px;
+     overflow: hidden;
+     clear: both;
 }
 
 #container { 
      background-color: rgba(255,255,255,.8);
      float: right;
-     width: 400px;
-     margin-right: 75px;
+     width: 300px;
+     margin: 75px 75px 0 0;
      padding: 15px;
 }
 
 #container p {
-     width: 90%;
+     width: 95%;
      opacity: 1;
 }
 
 #notes {
-     float: left;
-     width: 33%;
      background-color: transparent;
+     margin: 0 100px;
+     width: 80%;
 }
 
-.nav-em,
-.button {
+.blocknote {
+     background-color: #fff;
+     float: left;
+     width: 30%;
+     margin: 0px 1px;
+     padding: 5px;
+}
+
+.blocknote h2 {
+     font-family: "Merriweather", Georgia, sans-serif;
+}
+
+.nav-em a,
+.button a {
+     font-family: "Oswald", Arial, sans-serif;
+     text-align: center;
      text-transform: uppercase;
      font-weight: bold;
+     text-decoration: none;
+}
+
+.nav a {
+     color: #fff;
+}
+
+.button a {
+     color: #000;
 }
 
 .button {
      background-color: #cecece;
      width: 200px;
-     border-bottom: 1.5px solid gray;
-     padding: 5px 15px;
+     border-bottom: 3px solid gray;
+     padding: 15px;
+     text-align: center;
 }
 
 .highlight {
      background-color: #FDF731
+}
+
+.subtitle {
+     font-family: "Merriweather", Georgia, serif;
+     font-size: 16px;
+     font-style: italic;
 }
 
 .line {
@@ -174,9 +210,11 @@ footer {
 }
 
 footer {
+     font-family: "Source Sans Pro", Arial, sans-serif;
      height: 50px;
      clear: both;
      margin: 0;
+     padding: 5px 0;
 }
 
 /******************************************

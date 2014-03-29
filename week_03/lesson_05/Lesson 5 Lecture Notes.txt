@@ -23,3 +23,5 @@ End up with a public portfolio of code - open source
 Can then take forward to an employer - it's public
 
 Can attach a message before sending it to repository; use a descriptive message to explain what you'd done
+
+LOOK UP CLEARING AGAIN

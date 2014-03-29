@@ -1,0 +1,18 @@
+Next three sessions: javascript & jquery (then pull in HTML/CSS)
+HTML/CSS is markup
+Java (backend) javascript (frontend) is programming; convey logic to a computer
+
+Progam = set of instructions
+
+Pseudo code - writing a program but in plain language, not javascript syntax
+
+HTML content
+JS is behaviour - doing x action gives y result
+http://codepen.io/nevan/pen/kBItz
+
+.getElementById('define')
+.onclick=FUNCTION
+
+function FUNCTION is defined later 
+
+go to codeacademy to get familiar with the syntax
