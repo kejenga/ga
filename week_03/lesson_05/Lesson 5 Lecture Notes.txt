@@ -3,7 +3,7 @@ Normalise/reset.css
 
 Can utilise "container" - give it a width
 - to centre, apply margin, two values
-- zero to top & bottom; ato to either side
+- zero to top & bottom; auto to either side
 
 Normally background spans and content is centred
 - so use a class which can be applied to multiple elements
@@ -25,3 +25,22 @@ Can then take forward to an employer - it's public
 Can attach a message before sending it to repository; use a descriptive message to explain what you'd done
 
 LOOK UP CLEARING AGAIN
+
+
+#likes li {
+float: left;
+display: inline;
+width: 190px;
+margin-left: 15px;
+overflow: hidden;
+}
+
+
+
+#likes li {
+	float: left;
+	display: inline;
+	width: 190px;
+	margin-left: 15px;
+	overflow: hidden;
+}
