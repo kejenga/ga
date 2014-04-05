@@ -1,0 +1,74 @@
+JS is scripting language not markup like HTML
+DOM - document object model - interpretation of CSS/HTML/JS (inspect element on chrome)
+modify DOM in real time
+AJAX
+Asynchronous js & xml - make requests to external services (e.g. pull & present data)
+API application programming interface
+
+; finished statement
+() running methds & functions
+"" wrapping strings
+
+    <script src="js/main.js"></script>
+as soon as you link to js it's going to run it; sometimes when your js runs the page hasn't loaded yet so the DOM isn't ready yet
+
+window.onload = function () {
+
+}
+
+.onload is an event
+everything that goes in this will happen after the page has loaded
+() = running a function
+
+Selecting an element in HTML/CSS by ID is easier for JS than by selecting the tag as a whole
+
+Can do chaining in JS
+
+//this is a comment
+
+When the window has finished loading; run this code
+Change bg to purple
+
+Assign an onclick event to the grey button which runs this code when we've clicked it
+
+semi-colons are optional in js but put them in anyway - best practice
+put them at the end of statement to prevent weird edge cases so that it knows where one line starts & ends
+don't put ; at the end of blocks {}
+
+Data types: number, boolean etc.
+JS can infer the data type and can change it on the fly, too
+JS is a weakly-typed language; takes up more memory
+
+If we want to store some data or a reference to an object in multiple places in the code, don't want to repeat the code
+Need to create a reference point
+We thus create a variable - bucket into which things can be put
+Variables are stored in memory for the period of the page session
+Can change the value of variables
+
+var name = document.getElementById("name"); - delcaration & assignment on the same line
+name.remove(); - remove that thing
+
+shouldIGetAHairCut = camel case
+Sometimes people use $ to tell if an element is coming from the DOM
+
+Good idea not to recycle variables because becomes confusing to read
+
+Look up SYNTAX in slideshow
+
+Use forward slashes to escape characters \" - escape that speech mark
+
+getElementById = #id
+getElementsByTagName = <>
+
+
+== equal
+!= not equal
+=== strict equal
+!== strict not equal
+
+if / else
+
+&& and
+|| or
+
+the var keyword can take a list separated by commas, and endin with ;

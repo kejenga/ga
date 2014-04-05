@@ -1,0 +1,34 @@
+Pair work: lab
+
+Talking about functions
+Work through examples of what they are and why to use them
+
+A set of statements that 
+A block of code 
+
+Put js at the bottom of the screen and it will load last
+Allows your page to load and then additional from js will appear later
+
+function helloWorld() {
+	
+}
+
+helloWorld is self-defined
+then call it helloWorld();
+
+declaring and invoking functions
+
+//select the entry field and store it in the variable because going to manipulate it later
+how register submit - that is an event - listen to submit of form
+when that event happens, fire a call to a function and that function will add a new entry
+so define the new entry function - the function is adding table rows <tr>, two <td> one is empty one is the value
+The function will add a new row, using inner HTML to insert new HTML into that entries Id
+
+Update the total (sum)
+
+
+HOMEWORK:
+Google Sketch for wireframes (ps, psp, on paper) - where data should 
+be
+- rough idea of what you want to produce for final project
+Javascript homework - finish rock, paper, scissors
