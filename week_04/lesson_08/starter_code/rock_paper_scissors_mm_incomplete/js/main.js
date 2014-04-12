@@ -16,7 +16,8 @@ var rockButton = d.getElementById("rock"),
 
 
 rockButton.onclick = function() {
-	console.log(rockChosen)
+	console.log("rockChosen")
 }
+
 
 //rockChosen = update status

@@ -1,0 +1,24 @@
+ARRAYS
+Solution for Rock, Paper, Scissors will be up
+
+What is it, why do we need it, what are they for?
+
+Set of data, collection of images - want to store and manipulate them
+
+List of objects - multiple values in one variable
+Literal notation []
+
+myArr=['Hello',54.3,true]
+You can enter a space which is undefined
+
+Arrays have an index, which start at zero [0]
+.length will print the number of elements in the array
+
+CAROUSEL PSEUDO CODE
+
+Instead of hiding/revealing, update the attribute
+Array all images
+Take position 0 and replace with other values
+Two events: back and skip
+
+.length will say how many are in there, can +/-1 value to move through and target each image in each event

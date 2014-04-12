@@ -1,0 +1,76 @@
+Review functions
+Can do the same thing repeatedly
+Change behaviour given the input
+
+function colourChanger(bgColor, txtColor) {
+body.style.backgroundColor = "bgColor";
+body.style.color = "txtColor";
+}
+
+pass it some arguments, which you can define as variables within that block; can only use them in that block
+
+you can have functions within functions
+All variables bump to the top of a block (hoisting)
+
+Refactor function to take the element we want to change
+
+function colourChanger(element, bgColor, txtColor) {
+element.style.backgroundColor = "bgColor";
+element.style.color = "txtColor";
+}
+
+colorChanger(boy, "yellow", "black");
+
+Anon functions are events you only use once
+
+
+
+JQUERY - js library
+Selectors, methods, events
+
+
+CDN - content delivery network
+Link to Google's CDN instead of d/l local script
+$ = short for jQuery
+
+//ajax. = pulls current protocol (either http:// or https:// depending on what the site is using)
+However, need to change it to http:// because we're pulling from  //file
+
+hide sets display to none; show sets display to block
+
+to select elements, it uses CSS selectors
+e.g. #grey or.grey
+on method binds events to elements
+Normally need the event and drop it onto the element; and then a callback function
+In jQ - on method takes 2 arguments: event name
+
+$("#grey").on("click", function() {});
+Select the ID of grey and when we click it, run the anonymous function
+
+$("#grey").on("click", function() {
+  console.log("clicked");
+})
+
+Clicked on grey; console shows "clicked"
+css takes two values (key and value) background = color
+So the two arguments match that
+
+Optimisation - jQuery will traverse the DOM to retrieve 'body' each time - bit pointless to look for the same thing
+Declare a body variable in which to store the body DOM element
+jQ supports chaining - run this method, then this, then this all on same line (so wouldn't have two lines each referring to body
+just runs all on the same element
+80 chars is max # of chars you want on any line
+
+Value of $this is dependent on the scope
+
+.nav-content.current {
+Any time you see both of these, apply this rule, and only then
+
+.nav-content .current Any child of nav-content
+
+.nav-content > .current Specific child of nav-content
+
+ADDING OR REMOVING CLASSES
+$("#orange").addClass("fruit")
+
+SEE SLIDES - Getting & Setting
