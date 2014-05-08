@@ -1,0 +1,96 @@
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firefox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+.clearfix:before,
+.clearfix:after {
+     content: ".";
+     display: table;
+}
+
+.clear:after {
+     clear: both;
+}
+
+
+/* Body */
+body {
+	background: #fff url(../img/bg.jpg) repeat 0 0;
+	color: #222;
+	font: 12pt/20pt "Open Sans", Arial, sans-serif;
+    padding-top: 35px;
+	width: 80%;
+	margin: 0 auto;
+}
+
+
+h1, h2, h3 {
+		font-family: "Bitter", serif;
+}
+
+h1 {
+	font-size: 80pt;
+	text-align: center;
+}
+
+h2 {
+	font-size: 35pt;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1.a {
+	font-color: red;
+}
+
+h1.a:visited {
+	font-color: red;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	display: inline-block;
+}
+
+#banner {
+	padding: 10px auto;
+	border-bottom: solid 2px #ccc;
+}
+
+.round {
+	width: 80px;
+	height: 80px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	}
+
+h3.round {
+	width: 60px;
+	height: 60px;
+}
+
+.tag {
+	display: block;
+	padding: 5px;
+	margin: 2px;
+	background-color: red;	
+}
+
+ul#recent.li {
+	padding: 5px;
+	margin:	5px;
+	width: 33%;
+}
+
+footer {
+	background: ;
+}
