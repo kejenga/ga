@@ -32,24 +32,23 @@ h1, h2, h3 {
 }
 
 h1 {
-	font-size: 80pt;
+	font-size: 110pt;
 	text-align: center;
+	padding-bottom: 40px;
+	margin: 60px 0 75px 0;
 }
 
 h2 {
 	font-size: 35pt;
 }
 
-a {
+h3 {
+	font-size: 20pt;
+}
+
+a, a:visited {
 	text-decoration: none;
-}
-
-h1.a {
-	font-color: red;
-}
-
-h1.a:visited {
-	font-color: red;
+	color: black;
 }
 
 ul {
@@ -60,9 +59,39 @@ li {
 	display: inline-block;
 }
 
-#banner {
+section {
 	padding: 10px auto;
 	border-bottom: solid 2px #ccc;
+}
+
+nav {
+	height: 50px;
+	width: 100%;
+	background-color: white;
+}
+
+ul.nav {
+	padding: 10 0;
+	margin: 2 0;
+}
+
+.navbar {
+}
+
+a.navbar {
+	background-color: pink;
+	padding: 5px auto;
+	margin: 0 auto 10px auto;
+	font: 20pt bold;
+	color: #cc3366;
+}
+
+a.navbar:visited {
+	color: #cc3366;	
+}
+
+#recent {
+	width: 100%;
 }
 
 .round {
@@ -79,18 +108,30 @@ h3.round {
 }
 
 .tag {
-	display: block;
-	padding: 5px;
-	margin: 2px;
-	background-color: red;	
+	float: left;
+	display: inline;
+	padding: 2px 7px 3px;
+	background: #d6d6d6;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	color: #666;
+	margin-right: 5px;	
+}
+
+ul.tag {
+	padding-bottom: 10px;
 }
 
 ul#recent.li {
-	padding: 5px;
-	margin:	5px;
+	float: left;
 	width: 33%;
+	height: 320px;
+	padding: 5px auto;
+	margin:	5px;
+	overflow: hidden;
 }
 
 footer {
-	background: ;
+	background-color: black ;
 }
