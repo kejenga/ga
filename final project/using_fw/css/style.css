@@ -2,9 +2,13 @@ body {
 	background: #fff url(../img/bg.jpg) repeat 0 0;
 	color: #222;
 	font: 12pt/20pt "Open Sans", Arial, sans-serif;
-    padding-top: 35px;
 	width: 100%;
 	margin: 0;
+}
+
+header {
+	background-color: #cef;
+	margin-top: 0;
 }
 
 h1, h2, h3 {
@@ -16,8 +20,16 @@ h1 {
 	text-align: center;
 }
 
+h1.mobile {
+	font-size: 60pt;
+}
+
 h2 {
 	font-size: 30pt;
+}
+
+h2.mobile {
+	font-size: 20pt;
 }
 
 h3 {
@@ -28,8 +40,7 @@ nav {
 	text-align: center;
 	color: #cc3366;
 	background-color: #eee;
-	padding: 15px;
-	margin: 5px 0;
+	margin: 0 0 10px 0;
 }
 
 a,
@@ -62,18 +73,77 @@ a.navlink:hover {
 	padding: 10px 0;
 }
 
-.recent {
-	display: inline;
-	width: 340px;
+div.banner-img {
+	position: relative;
+	overflow: hidden;
+	width: 300px;
+	height: 300px;
+	display: inline-block;
+	margin-right: 15px;
+	margin-bottom: 15px;
 }
 
-img {
-	padding-top: 0;
-	padding-right: 0;
+div.small-4.columns.banner-img.slideRight {
+float: right;
+}
+/* easier fix for this?? foundation causing weird alignment due to float */
+
+container.recent img {
+	position: absolute;
+	left: 0;
+	top: 0;
+	
+	-webkit-transition: all .3s ease-out;
+	-moz-transition: all .3s ease-out;
+	-ms-transition: all .3s ease-out;
+	-o-transition: all .3s ease-out;
+	transition: all .3s ease-out;
+}
+
+span.caption {
+	width: 300px;
+	height: 20px;
+	position: absolute;
+	background: rgba(100,100,100,0.7);
+	text-align: left;
+	padding: 5px 0 4px;
+	font-size: 14px;
+	color: white;
+	font: 12pt/20pt "Open Sans", Arial, sans-serif;
+	
+	-webkit-transition: all .3s ease-out;
+	-moz-transition: all .3s ease-out;
+	-ms-transition: all .3s ease-out;
+	-o-transition: all .3s ease-out;
+	transition: all .3s ease-out;
+}
+
+span.caption h2,
+span.caption p {
+	margin-left: 15px; 
+}
+
+span.caption a:hover {
+	color: #cc3366;
+}
+
+div.banner-img.slideRight span { 
+	height: 300px;
+	right: -300px;
+}
+
+div.banner-img.slideRight:hover span {
+	right: 0;
+}
+
+.recent {
+	display: inline;
 }
 
 footer {
-	padding: 20px 0 0 0;
+	padding: 20px 0;
+	background-color: #cef;
+	border-top: solid 5px #cc3366;
 }
 
 a.permalink, 
@@ -92,12 +162,32 @@ h2 a.permalink:hover {
 }
 
 h2 a.permalink, 
-h2 a.permalink:visited {
+h2 a.permalink:visited 
+/*h2.mobile a.permalink,
+h2.mobile a.permalink:visited */{
 	color: #000;
 }
 
-h2 a.permalink:hover {
+h2 a.permalink:hover,
+h2.mobile a.permalink:hover {
 	color: #cc3366;
+}
+
+h2.mobile a.permalink,
+h2.mobile a.permalink:hover {
+	font-size: 20pt;
+}
+
+
+
+.byline {
+	font-size: 12pt;
+	text-transform: uppercase;
+	color: #cef;
+}
+
+.headline {
+	margin-top: 5px;
 }
 
 ul {
@@ -107,7 +197,7 @@ ul {
 
 .tags {
 	float: left;
-	padding: 2px 7px 3px;
+	padding: 2px 7px 0px;
 	background: #d6d6d6;
 	-moz-border-radius: 4px;
 	-webkit-border-radius: 4px;
@@ -127,7 +217,7 @@ ul {
 }
 
 section {
-	margin: 0 0 20px 0;
+	margin: 10px 0;
 }
 
 .article {
@@ -139,4 +229,36 @@ section {
 	border-bottom: solid 1.5px #999;
 	padding-bottom: 20px;
 	margin-bottom: 20px;
+}
+
+.round {
+	width: 64px;
+	height: 64px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	}
+
+.round.genre {
+	margin-top: 5px;
+}
+
+table {
+	border:	none;
+	background: transparent;
+}
+
+footer li {
+	font-weight: bold;
+	text-align: right;
+	text-transform: uppercase;
+	border-bottom: solid 1.5px #cc3366;
+	padding-top: 5px;
+}
+
+#pagenav,
+#pagenav a {
+	font-weight: bold;
+	color: #cc3366;
+	text-align: center;
 }

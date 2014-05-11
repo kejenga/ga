@@ -1,0 +1,767 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bo",
+				"border-bottom"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"l",
+				"list-style"
+			],
+			[
+				"a",
+				"a"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"f",
+				"font-size"
+			],
+			[
+				"bord",
+				"border"
+			],
+			[
+				"bacground",
+				"background-color"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"clear",
+				"clearfix"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"add",
+				"addCarToList"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"paddi",
+				"padding-top"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"yellow",
+				"yellow"
+			],
+			[
+				"gt",
+				"getElementById"
+			],
+			[
+				"mul",
+				"multiplyAndPrint"
+			],
+			[
+				"get",
+				"getElementByID"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"block",
+				"blocknote"
+			],
+			[
+				"nav",
+				"nav-em"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"n",
+				"transparent"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"ar",
+				"article	Tag"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"fir",
+				"first-child"
+			],
+			[
+				"background-",
+				"background-color"
+			],
+			[
+				"pad",
+				"padding-right"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"margi",
+				"margin-bottom"
+			],
+			[
+				"i",
+				"italic"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 7479,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "permalink.html",
+			"settings":
+			{
+				"buffer_size": 2921,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/meisha/Desktop/ga/week_06/lesson_11/jq_plugins/css/style.css",
+			"settings":
+			{
+				"buffer_size": 2158,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/meisha/Desktop/ga/final project/example/index.html",
+			"settings":
+			{
+				"buffer_size": 5378,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/meisha/Desktop/ga/week_06/lesson_11/jq_plugins/index.html",
+			"settings":
+			{
+				"buffer_size": 3907,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/style.css",
+			"settings":
+			{
+				"buffer_size": 1698,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/meisha/Desktop/ga/final project/example/css/style.css",
+			"settings":
+			{
+				"buffer_size": 1721,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/meisha/Desktop/ga/week_07/lesson_14/materials/grid_system/index.html",
+			"settings":
+			{
+				"buffer_size": 3221,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/meisha/Desktop/ga/week_07/lesson_14/materials/grid_system/css/main.css",
+			"settings":
+			{
+				"buffer_size": 253,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+		],
+		"width": 461.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/meisha/Desktop/ga/week_06/lesson_11/jq_plugins/js/app.js",
+		"/C/Users/meisha/Desktop/ga/final project/example/index.html",
+		"/C/Users/meisha/Desktop/ga/week_07/lesson_14/materials/grid_system/css/foundation.min.css",
+		"/C/Users/meisha/Desktop/ga/final project/example/css/style.css",
+		"/C/Users/meisha/Desktop/ga/week_03/lesson_05/startup_matchmaker/css/style.css",
+		"/C/Users/meisha/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/meisha/Desktop/ga/week_02/lesson_04/fashion_blog_part1/index.html",
+		"/C/Users/meisha/Desktop/ga/week_02/lesson_04/fashion_blog_part1/css/style.css",
+		"/C/Users/meisha/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/meisha/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/meisha/Desktop/ga/week_02/lesson_03/starter_code/template/index.html",
+		"/C/Users/meisha/Desktop/ga/week_02/lesson_03/starter_code/template/css/style.css",
+		"/C/Users/meisha/Desktop/ga/week_07/lesson_14/materials/bootstrap_example/index.html",
+		"/C/Users/meisha/Desktop/ga/week_07/lesson_14/materials/bootstrap_example/css/main.css",
+		"/C/Users/meisha/Desktop/ga/week_07/lesson_14/materials/grid_system/index.html",
+		"/C/Users/meisha/Desktop/ga/week_07/lesson_14/materials/grid_system/css/main.css",
+		"/C/Users/meisha/Desktop/ga/week_07/lesson_13/class_materials/02_media-queries-lab/css/style.css",
+		"/C/Users/meisha/Desktop/ga/week_07/lesson_13/class_materials/03_startup_matchmaker_responsive/index.html",
+		"/C/Users/meisha/Desktop/ga/week_07/lesson_13/class_materials/03_startup_matchmaker_responsive/css/main.css",
+		"/C/Users/meisha/Desktop/ga/week_07/lesson_13/class_materials/03_startup_matchmaker_responsive/js/main.js",
+		"/C/Users/meisha/Desktop/ga/week_07/lesson_13/class_materials/02_media-queries-lab/index.html",
+		"/C/Users/meisha/Desktop/ga/week_07/lesson_13/class_materials/01_basic-media-query/css/style.css",
+		"/C/Users/meisha/Desktop/ga/week_07/lesson_13/class_materials/01_basic-media-query/index.html",
+		"/C/Users/meisha/Desktop/ga/week_06/lesson_12/materials/reddit_mashup/js/main.js",
+		"/C/Users/meisha/Desktop/ga/week_06/lesson_12/materials/reddit_mashup/index.html",
+		"/C/Users/meisha/Desktop/ga/week_06/lesson_12/materials/car_factory/index.html",
+		"/C/Users/meisha/Desktop/ga/week_06/lesson_12/materials/car_factory/js/main.js",
+		"/C/Users/meisha/Desktop/ga/week_06/lesson_11/jq_plugins/index.html",
+		"/C/Users/meisha/Desktop/ga/week_06/lesson_11/jq_plugins/css/style.css",
+		"/C/Users/meisha/Desktop/ga/week_06/lesson_11/jq_plugins/js/jquery.flexslider-min.js",
+		"/C/Users/meisha/Desktop/ga/week_06/lesson_11/jq_plugins/css/flexslider.css",
+		"/C/Users/meisha/Desktop/ga/week_06/lesson_11/jq_plugins/js/scrolld.js",
+		"/C/Users/meisha/Desktop/ga/week_05/lesson_10/starter_code/carousel/js/index.js",
+		"/C/Users/meisha/Desktop/ga/week_05/lesson_09/materials/form_validator/js/main.js",
+		"/C/Users/meisha/Desktop/ga/week_05/lesson_09/materials/divided_times/js/main.js",
+		"/C/Users/meisha/Desktop/ga/week_05/lesson_09/materials/colour_switcher_refactor/js/main.js",
+		"/C/Users/meisha/Desktop/vidjeti.html",
+		"/C/Users/meisha/Desktop/ga/week_05/lesson_10/starter_code/arrays/js/index.js",
+		"/C/Users/meisha/Desktop/ga/week_05/lesson_09/materials/divided_times/index.html",
+		"/C/Users/meisha/Desktop/ga/week_05/lesson_09/materials/divided_times/css/main.css",
+		"/C/Users/meisha/Desktop/ga/week_05/lesson_09/materials/colour_switcher_refactor/css/stylesheet.css",
+		"/C/Users/meisha/Desktop/ga/week_05/lesson_09/materials/colour_switcher_refactor/index.html",
+		"/C/Users/meisha/Desktop/ga/week_04/lesson_08/colour_switchercopy/js/main.js",
+		"/C/Users/meisha/Desktop/ga/week_04/lesson_08/starter_code/rock_paper_scissors/js/main.js",
+		"/C/Users/meisha/Desktop/ga/week_04/lesson_08/starter_code/rock_paper_scissors_Obfuscated/js/index.js",
+		"/C/Users/meisha/Desktop/ga/week_04/lesson_08/starter_code/functions/index.html",
+		"/C/Users/meisha/Desktop/ga/week_04/lesson_08/starter_code/functions/js/main.js",
+		"/C/Users/meisha/Desktop/ga/week_04/lesson_07/materials/number_comparison/js/main.js",
+		"/C/Users/meisha/Desktop/ga/week_04/lesson_07/materials/celcius_converter/js/main.js",
+		"/C/Users/meisha/Desktop/ga/week_04/lesson_07/materials/celcius_converter/index.html",
+		"/C/Users/meisha/Desktop/ga/week_04/lesson_07/materials/colour_switcher/js/main.js",
+		"/C/Users/meisha/Desktop/ga/week_04/lesson_07/materials/number_comparison/index.html",
+		"/C/Users/meisha/Desktop/ga/week_04/lesson_07/materials/playground/js/main.js",
+		"/C/Users/meisha/Desktop/ga/week_04/lesson_07/materials/playground/index.html",
+		"/C/Users/meisha/Desktop/ga/week_03/lesson_05/startup_matchmaker/index.html",
+		"/C/Users/meisha/Desktop/ga fewd/week_03/lesson_05/startup_matchmaker/css/style.css",
+		"/C/Users/meisha/Desktop/ga fewd/week_03/lesson_05/centering/index.html",
+		"/C/Users/meisha/Desktop/ga fewd/week_03/lesson_05/centering/css/style.css",
+		"/C/Users/meisha/Desktop/ga fewd/homework/week_02/fashion_blog_part1/test.html",
+		"/C/Users/meisha/Desktop/ga fewd/homework/week_02/fashion_blog_part1/index.html",
+		"/C/Users/meisha/Desktop/ga fewd/homework/week_02/fashion_blog_part1/css/style.css",
+		"/C/Users/meisha/Desktop/ga fewd/homework/week_02/fashion_blog_part1/css/test.css",
+		"/C/Users/meisha/Desktop/ga fewd/week_02/lesson_03/starter_code/fashion_blog_part1/css/style.css",
+		"/C/Users/meisha/Desktop/ga fewd/week_02/lesson_04/fashion_blog_part1/css/style.css",
+		"/C/Users/meisha/Desktop/ga fewd/week_02/lesson_04/fashion_blog_part1/index.html",
+		"/C/Users/meisha/Desktop/ga fewd/week_02/lesson_03/starter_code/template/css/style.css",
+		"/C/Users/meisha/Desktop/ga fewd/week_02/lesson_04/class/03-clearing/css/style.css",
+		"/C/Users/meisha/Desktop/ga fewd/week_02/lesson_04/class/03-clearing/index.html",
+		"/C/Users/meisha/Desktop/ga fewd/week_02/lesson_04/class/02-floating/css/style.css",
+		"/C/Users/meisha/Desktop/ga fewd/week_02/lesson_04/class/02-floating/index.html",
+		"/C/Users/meisha/Desktop/ga fewd/week_02/lesson_04/class/01-classes-ids/index.html",
+		"/C/Users/meisha/Desktop/ga fewd/week_02/lesson_04/class/01-classes-ids/css/style.css",
+		"/C/Users/meisha/Desktop/GA FEWD/week_01/css/styles.css",
+		"/C/Users/meisha/Desktop/GA FEWD/week_01/content/index.html",
+		"/C/Users/meisha/Desktop/GA FEWD/week_01/content/resume.html",
+		"/C/Users/meisha/Desktop/GA FEWD/week_01/index.html",
+		"/C/Users/meisha/Desktop/GA FEWD/week_01/styles.css",
+		"/C/Users/meisha/Desktop/GA FEWD/lesson_02/materials/fleetwood_mac/discography.html",
+		"/C/Users/meisha/Desktop/GA FEWD/lesson_02/materials/fleetwood_mac/index.html",
+		"/C/Users/meisha/Desktop/GA FEWD/lesson_02/materials/fleetwood_mac/css/styles.css",
+		"/C/Users/meisha/Desktop/GA FEWD/lesson_01/materials/ga_press_release/index.html",
+		"/C/Users/meisha/Desktop/GA FEWD/lesson_01/materials/cookie_recipe/index.html",
+		"/C/Users/meisha/Desktop/GA FEWD/lesson_01/completed_materials/cookie_recipe/index.html"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"aaa",
+			" 40",
+			"'",
+			"<li class=\"tag\"><a href=\"#\">",
+			"<li>",
+			"tab",
+			"window",
+			"screen",
+			"split",
+			"						<",
+			"vidjeti",
+			"learn more",
+			"$(\"body\").",
+			"'",
+			"console.log(name.innerHTML);",
+			"-em",
+			"em",
+			"p ",
+			"nav-em",
+			"font",
+			"margin",
+			"p class=\"read",
+			">\n",
+			"first",
+			"first-child",
+			"first",
+			"content",
+			"rulers"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\"",
+			"<li><a href=\"#\" class=\"tag\">",
+			"<li class=\"tag\">",
+			"body.",
+			"\"",
+			"div class=\"read"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 7479,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7461,
+								7461
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3979.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "permalink.html",
+					"settings":
+					{
+						"buffer_size": 2921,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2179,
+								2179
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1115.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/meisha/Desktop/ga/week_06/lesson_11/jq_plugins/css/style.css",
+					"settings":
+					{
+						"buffer_size": 2158,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1210,
+								1078
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 5,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 809.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/meisha/Desktop/ga/final project/example/index.html",
+					"settings":
+					{
+						"buffer_size": 5378,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3756,
+								5134
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2197.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 4,
+					"file": "/C/Users/meisha/Desktop/ga/week_06/lesson_11/jq_plugins/index.html",
+					"settings":
+					{
+						"buffer_size": 3907,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3324,
+								3324
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "css/style.css",
+					"settings":
+					{
+						"buffer_size": 1698,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1580,
+								1580
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 723.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/C/Users/meisha/Desktop/ga/final project/example/css/style.css",
+					"settings":
+					{
+						"buffer_size": 1721,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								763,
+								738
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 737.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/C/Users/meisha/Desktop/ga/week_07/lesson_14/materials/grid_system/index.html",
+					"settings":
+					{
+						"buffer_size": 3221,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3162,
+								3162
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1313.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/C/Users/meisha/Desktop/ga/week_07/lesson_14/materials/grid_system/css/main.css",
+					"settings":
+					{
+						"buffer_size": 253,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								252,
+								253
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 197.0,
+	"status_bar_visible": true
+}

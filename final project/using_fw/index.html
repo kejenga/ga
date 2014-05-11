@@ -15,76 +15,96 @@
 	</head>
 	<body>
 
-	<div class="row">
-		<div class="small-12 columns">
-			<header>
-				<h1><a href="#">vidjeti.</a></h1>
-			</header>
+	<header>
+		<div class="row">
+			<div class="small-12 columns">
+					<h1 class="show-for-medium-up"><a href="#">vidjeti.</a></h1>
+					<h1 class="mobile show-for-small-only"><a href="#">vidjeti.</a></h1>
+			</div>
 		</div>
-	</div>
+	</header>
 
-		<nav>
-			<div class="row">
-	            <div class="small-12 medium-4 columns">
-	              <section>
-	                <a href="#" class="navlink">home</a>
-	              </section>  
-	            </div>
+	<nav>
+		<div class="row">
+            <div class="small-12 medium-4 columns">
+              <section>
+                <a href="#" class="navlink">home</a>
+              </section>  
+            </div>
 
-	            <div class="small-12 medium-4 columns">
-	              <section>
-					<a href="#" class="navlink">archive</a>
-	              </section>  
-	            </div>
+            <div class="small-12 medium-4 columns">
+              <section>
+				<a href="#" class="navlink">archive</a>
+              </section>  
+            </div>
 
-	            <div class="small-12 medium-4 columns">
-	              <section>
-	                <a href="#" class="navlink">contact</a>
-	              </section>  
-	            </div>
-	        </div>
-		</nav>
+            <div class="small-12 medium-4 columns">
+              <section>
+                <a href="#" class="navlink">contact</a>
+              </section>  
+            </div>
+        </div>
+	</nav>
+	<!-- replace with js hidden menu for smaller screens -->
 	
 	<section id="banner">
 	<div class="row">
-		<div class="small-3 columns">
+		<div class="large-3 columns show-for-large-up">
 			<h3>Recent Posts</h3>
 		</div>
 	</div>
 
-	<div class="row divider">
-		<div class="small-4 columns">
+	<div class="row divider show-for-large-up">
+		<div class="small-4 columns banner-img slideRight">
           	<container class="recent">  
-            	<img src="http://placehold.it/320x300">
-          	</container>
+            	<img src="http://placehold.it/300x300" width="300px" height="300px">
+				<span class="caption">
+				    <h3><a href="#">Article</a></h3>  
+			        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+			    </span>
+			</container>
         </div>
 
-        <div class="small-4 columns">
+        <div class="small-4 columns banner-img slideRight">
           	<container class="recent">  
-            	<img src="http://placehold.it/320x300">
-          	</container>
+            	<img src="http://placehold.it/300x300" width="300px" height="300px">
+				<span class="caption">
+				    <h3><a href="#">Article</a></h3>  
+			        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+			    </span>
+			</container>
         </div>
 
-        <div class="small-4 columns">
+        <div class="small-4 columns banner-img slideRight">
           	<container class="recent">  
-            	<img src="http://placehold.it/320x300">
-          	</container>
+            	<img src="http://placehold.it/300x300" width="300px" height="300px">
+				<span class="caption">
+				    <h3><a href="#">Article</a></h3>  
+			        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+			    </span>
+			</container>
         </div>
-
 	</div>
 	</section>
 
 	<section id="content">
 		<div class="article">
 			<div class="row">
-			<div class="small-6 columns">
+			<div class="small-12 medium-6 columns">
 				<img src="http://placehold.it/500x333">
 			</div>
 
-<!-- NEED A ROW INSIDE A ROW SO THAT ARTICLE ICON CAN BE USED -->
-
-			<div class="small-6 columns">
-				<h2><a href="#" class="permalink">Article Title</a></h2>
+			<div class="small-12 medium-6 columns">
+				<div class="row headline">
+					<div class="small-9 columns">
+						<h2 class="mobile show-for-small-only"><a href="#" class="permalink">Article Title</a></h2>
+						<h2 class="mobile show-for-medium-up"><a href="#" class="permalink">Article Title</a></h2>
+						<span class="byline">date time author</span>
+					</div>
+					<div class="small-3 columns">
+						<img src="http://placehold.it/64x64" class="round genre">
+					</div>
+				</div>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -93,8 +113,8 @@
 				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 				<p><a href="#" class="permalink">Read more</a></p>
 			</div>
-			</div>
-s
+			</div> 
+
 			<div class="row divider">
 				<div class="small-12 columns">
 					<ul>
@@ -108,22 +128,31 @@ s
 
 		<div class="article">
 			<div class="row">
-				<div class="small-6 columns">
-					<img src="http://placehold.it/500x333">
-				</div>
-
-				<div class="small-6 columns">
-					<h2><a href="#" class="permalink">Article Title</a></h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-					<p><a href="#" class="permalink">Read more</a></p>
-				</div>
+			<div class="small-12 medium-6 columns">
+				<img src="http://placehold.it/500x333">
 			</div>
-		
+
+			<div class="small-12 medium-6 columns">
+				<div class="row headline">
+					<div class="small-9 columns">
+						<h2 class="mobile show-for-small-only"><a href="#" class="permalink">Article Title</a></h2>
+						<h2 class="mobile show-for-medium-up"><a href="#" class="permalink">Article Title</a></h2>
+						<span class="byline">date time author</span>
+					</div>
+					<div class="small-3 columns">
+						<img src="http://placehold.it/64x64" class="round genre">
+					</div>
+				</div>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p><a href="#" class="permalink">Read more</a></p>
+			</div>
+			</div> 
+
 			<div class="row divider">
 				<div class="small-12 columns">
 					<ul>
@@ -137,23 +166,32 @@ s
 
 		<div class="article">
 			<div class="row">
-				<div class="small-6 columns">
-					<img src="http://placehold.it/500x333">
-				</div>
-
-				<div class="small-6 columns">
-					<h2><a href="#" class="permalink">Article Title</a></h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-					<p><a href="#" class="permalink">Read more</a></p>
-				</div>
+			<div class="small-12 medium-6 columns">
+				<img src="http://placehold.it/500x333">
 			</div>
 
-			<div class="row">
+			<div class="small-12 medium-6 columns">
+				<div class="row headline">
+					<div class="small-9 columns">
+						<h2 class="mobile show-for-small-only"><a href="#" class="permalink">Article Title</a></h2>
+						<h2 class="mobile show-for-medium-up"><a href="#" class="permalink">Article Title</a></h2>
+						<span class="byline">date time author</span>
+					</div>
+					<div class="small-3 columns">
+						<img src="http://placehold.it/64x64" class="round genre">
+					</div>
+				</div>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p><a href="#" class="permalink">Read more</a></p>
+			</div>
+			</div> 
+
+			<div class="row divider">
 				<div class="small-12 columns">
 					<ul>
 						<li class="tags"><a href="#">television</a></li>
@@ -161,34 +199,130 @@ s
 						<li class="tags"><a href="#">instaverdict</a></li>
 					</ul>
 				</div>
+			</div>
+		</div>
+
+		<div class="article">
+			<div class="row">
+			<div class="small-12 medium-6 columns">
+				<img src="http://placehold.it/500x333">
+			</div>
+
+			<div class="small-12 medium-6 columns">
+				<div class="row headline">
+					<div class="small-9 columns">
+						<h2 class="mobile show-for-small-only"><a href="#" class="permalink">Article Title</a></h2>
+						<h2 class="mobile show-for-medium-up"><a href="#" class="permalink">Article Title</a></h2>
+						<span class="byline">date time author</span>
+					</div>
+					<div class="small-3 columns">
+						<img src="http://placehold.it/64x64" class="round genre">
+					</div>
+				</div>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p><a href="#" class="permalink">Read more</a></p>
+			</div>
+			</div> 
+
+			<div class="row divider">
+				<div class="small-12 columns">
+					<ul>
+						<li class="tags"><a href="#">television</a></li>
+						<li class="tags"><a href="#">review</a></li>
+						<li class="tags"><a href="#">instaverdict</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="article">
+			<div class="row">
+			<div class="small-12 medium-6 columns">
+				<img src="http://placehold.it/500x333">
+			</div>
+
+			<div class="small-12 medium-6 columns">
+				<div class="row headline">
+					<div class="small-9 columns">
+						<h2 class="mobile show-for-small-only"><a href="#" class="permalink">Article Title</a></h2>
+						<h2 class="mobile show-for-medium-up"><a href="#" class="permalink">Article Title</a></h2>
+						<span class="byline">date time author</span>
+					</div>
+					<div class="small-3 columns">
+						<img src="http://placehold.it/64x64" class="round genre">
+					</div>
+				</div>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p><a href="#" class="permalink">Read more</a></p>
+			</div>
+			</div> 
+
+			<div class="row divider">
+				<div class="small-12 columns">
+					<ul>
+						<li class="tags"><a href="#">television</a></li>
+						<li class="tags"><a href="#">review</a></li>
+						<li class="tags"><a href="#">instaverdict</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+	</section>
+
+	<section id="pagenav">
+		<div class="row">
+			<div class="small-12 columns">
+				<a href="">next page >></a> 
+				<!-- next page icon >> -->
 			</div>
 		</div>
 	</section>
 
+<!-- take out bottom nav bar; replace with social media bar -->
+<!-- create a row with two columns and add nav links under sm links -->
 
-
+<!-- pulled from example -->
 	<footer>
-		<nav>
-			<div class="row">
-	            <div class="small-12 medium-4 columns">
-	              <section>
-	                <a href="#" class="navlink">home</a>
-	              </section>  
-	            </div>
+	<section id="social">
+		<div class="row">
+			<div class="small-12 medium-6 columns show-for-large-up" id ="tweets">
+				<h3>Latest Tweets</h3>
+				<a class="twitter-timeline" data-dnt="true" href="https://twitter.com/vidjeti" data-widget-id="464359701803581440" data-tweet-limit="3" data-chrome="noheader nofooter">Tweets by @vidjeti</a>
+					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+			</div>
 
-	            <div class="small-12 medium-4 columns">
-	              <section>
-					<a href="#" class="navlink">archive</a>
-	              </section>  
-	            </div>
+			<div class="small-12 medium-6 large-4 columns" id="icons">
+				<h3>Social</h3>
+					<a href="http://twitter.com/vidjeti"><img src="img/twt.png" class="round" alt="twitter"></a>
+					<a href="http://vidjeti.tumblr.com"><img src="img/tum.png" class="round" alt="tumblr"></a>
+					<a href="http://www.deepingsraftrace.co.uk"><img src="img/drr.png" class="round" alt="raft race"></a>
+			</div>
 
-	            <div class="small-12 medium-4 columns">
-	              <section>
-	                <a href="#" class="navlink">contact</a>
-	              </section>  
-	            </div>
-	        </div>
-		</nav>
+			<div class="small-12 medium-6 columns large-2" id="links">
+				<h3>Links</h3>
+					<ul>
+						<li><a href="#">home</a></li>
+						<li><a href="#">tags</a></li>
+						<li><a href="#">archive</a></li>
+						<li><a href="#">contact</a></li>
+						<li><a href="#">sitemap</a></li>
+					</ul>
+			</div>
+		</div>
+	</section>
+	
+	<script src="js/js.js"></script>
 	</footer>
 
 	</body>
