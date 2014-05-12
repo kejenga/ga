@@ -4,24 +4,80 @@
 		"selected_items":
 		[
 			[
-				"bo",
-				"border-bottom"
-			],
-			[
-				"border",
-				"border-bottom"
-			],
-			[
-				"margin",
-				"margin-bottom"
-			],
-			[
 				"text",
-				"text-decoration"
+				"text-transform"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"text-",
+				"text-align"
 			],
 			[
 				"font",
 				"font-size"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"d",
+				"d"
+			],
+			[
+				"getEle",
+				"getElementById"
+			],
+			[
+				"on",
+				"onclick"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"backg",
+				"background"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"c",
+				"cc3366"
+			],
+			[
+				"background-",
+				"background-color"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"bo",
+				"border-bottom"
 			],
 			[
 				"l",
@@ -32,16 +88,8 @@
 				"a"
 			],
 			[
-				"back",
-				"background-color"
-			],
-			[
 				"inli",
 				"inline-block"
-			],
-			[
-				"ba",
-				"background-color"
 			],
 			[
 				"in",
@@ -76,10 +124,6 @@
 				"text-decoration"
 			],
 			[
-				"padding",
-				"padding-bottom"
-			],
-			[
 				"marg",
 				"margin-top"
 			],
@@ -96,16 +140,8 @@
 				"addCarToList"
 			],
 			[
-				"bac",
-				"background-color"
-			],
-			[
 				"paddi",
 				"padding-top"
-			],
-			[
-				"d",
-				"display"
 			],
 			[
 				"yellow",
@@ -144,10 +180,6 @@
 				"nav-em"
 			],
 			[
-				"bor",
-				"border-bottom"
-			],
-			[
 				"n",
 				"transparent"
 			],
@@ -168,10 +200,6 @@
 				"first-child"
 			],
 			[
-				"background-",
-				"background-color"
-			],
-			[
 				"pad",
 				"padding-right"
 			],
@@ -182,10 +210,6 @@
 			[
 				"font-",
 				"font-weight"
-			],
-			[
-				"margi",
-				"margin-bottom"
 			],
 			[
 				"i",
@@ -199,7 +223,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 7479,
+				"buffer_size": 11714,
 				"line_ending": "Windows"
 			}
 		},
@@ -228,6 +252,14 @@
 			}
 		},
 		{
+			"file": "/C/Users/meisha/Desktop/ga/week_04/lesson_08/colour_switchercopy/js/main.js",
+			"settings":
+			{
+				"buffer_size": 779,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "/C/Users/meisha/Desktop/ga/week_06/lesson_11/jq_plugins/index.html",
 			"settings":
 			{
@@ -239,7 +271,7 @@
 			"file": "css/style.css",
 			"settings":
 			{
-				"buffer_size": 1698,
+				"buffer_size": 3745,
 				"line_ending": "Windows"
 			}
 		},
@@ -292,6 +324,9 @@
 	},
 	"file_history":
 	[
+		"/C/Users/meisha/Desktop/ga/final project/using_fw/test.html",
+		"/C/Users/meisha/Desktop/ga/final project/using_fw/js/js.js",
+		"/C/Users/meisha/Desktop/ga/final project/using_fw/permalink.html",
 		"/C/Users/meisha/Desktop/ga/week_06/lesson_11/jq_plugins/js/app.js",
 		"/C/Users/meisha/Desktop/ga/final project/example/index.html",
 		"/C/Users/meisha/Desktop/ga/week_07/lesson_14/materials/grid_system/css/foundation.min.css",
@@ -392,6 +427,29 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"img",
+			"<h2 class=\"mobile show-for-medium-up\"><a href=\"#\" class=\"permalink\">Article Title</a></h2>",
+			"h3.",
+			"nav",
+			"shadow",
+			"recent",
+			"280px",
+			"320",
+			"300px",
+			"-webkit-margin-before",
+			"recent",
+			"320",
+			"img",
+			"large",
+			"p ",
+			"round",
+			"cdf",
+			" class=\"transparent\"",
+			"<div class ",
+			"cef",
+			"footer",
+			"../",
+			"round",
 			"aaa",
 			" 40",
 			"'",
@@ -427,6 +485,16 @@
 		"regex": false,
 		"replace_history":
 		[
+			"<h2 class=\"show-for-medium-up\"><a href=\"#\" class=\"permalink\">Article Title</a></h2>",
+			"300px",
+			"3000px",
+			"280px",
+			"300",
+			"cef",
+			"",
+			"<div class",
+			"cdf",
+			"",
 			"\"",
 			"<li><a href=\"#\" class=\"tag\">",
 			"<li class=\"tag\">",
@@ -451,15 +519,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 7479,
+						"buffer_size": 11714,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7461,
-								7461
+								1782,
+								1782
 							]
 						],
 						"settings":
@@ -468,7 +536,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 3979.0,
+						"translation.y": 626.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -485,8 +553,8 @@
 						"selection":
 						[
 							[
-								2179,
-								2179
+								0,
+								0
 							]
 						],
 						"settings":
@@ -495,7 +563,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1115.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -550,7 +618,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2197.0,
+						"translation.y": 379.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -558,11 +626,39 @@
 			]
 		},
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 4,
+					"file": "/C/Users/meisha/Desktop/ga/week_04/lesson_08/colour_switchercopy/js/main.js",
+					"settings":
+					{
+						"buffer_size": 779,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								29
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
 					"file": "/C/Users/meisha/Desktop/ga/week_06/lesson_11/jq_plugins/index.html",
 					"settings":
 					{
@@ -589,19 +685,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 6,
 					"file": "css/style.css",
 					"settings":
 					{
-						"buffer_size": 1698,
+						"buffer_size": 3745,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1580,
-								1580
+								1502,
+								1502
 							]
 						],
 						"settings":
@@ -610,13 +706,13 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 723.0,
+						"translation.y": 1168.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 7,
 					"file": "/C/Users/meisha/Desktop/ga/final project/example/css/style.css",
 					"settings":
 					{
@@ -627,8 +723,8 @@
 						"selection":
 						[
 							[
-								763,
-								738
+								1335,
+								1170
 							]
 						],
 						"settings":
@@ -637,13 +733,13 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 737.0,
+						"translation.y": 1367.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 8,
 					"file": "/C/Users/meisha/Desktop/ga/week_07/lesson_14/materials/grid_system/index.html",
 					"settings":
 					{
@@ -654,8 +750,8 @@
 						"selection":
 						[
 							[
-								3162,
-								3162
+								303,
+								346
 							]
 						],
 						"settings":
@@ -665,13 +761,13 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1313.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 9,
 					"file": "/C/Users/meisha/Desktop/ga/week_07/lesson_14/materials/grid_system/css/main.css",
 					"settings":
 					{
