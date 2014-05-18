@@ -107,6 +107,14 @@ h3.round {
 	height: 60px;
 }
 
+.image {
+	float: left;
+}
+
+.content {
+	float: right;
+}
+
 .tag {
 	float: left;
 	display: inline;
@@ -134,4 +142,79 @@ ul#recent.li {
 
 footer {
 	background-color: black ;
+}
+
+/* sprites */
+.sprite {
+     background: url("../img/sprites.png")
+}
+
+.socials-icon {
+     display: block;
+     width: 48px;
+     height: 48px;
+}
+
+.book {
+     background-position: 0 0;
+}
+
+.film {
+	background-position: -100px 0;
+}
+
+.theatre {
+	background-position: -200px 0;
+}
+
+.music {
+	background-position: -300px 0px;
+}
+
+.close {
+	background-position: 0 -100px
+}
+
+.open {
+	background-position: -100px -100px;
+}
+
+.tv {
+	background-position: -200px -100px;	
+}
+
+.insta {
+	background-position: -300px -100px;	
+}
+
+.twt {
+	background-position: 0px -200px;	
+}
+
+.drr {
+	background-position: -75px -200px;	
+}
+
+.tum {
+	background-position: -150px -200px;	
+}
+
+.gplus {
+	background-position: -250px -220px;	
+}
+
+.share {
+	background-position: -290px -220px;	
+}
+
+.twt-share {
+	background-position: -330px -220px;	
+}
+
+.tum-share {
+	background-position: -250px -250px;	
+}
+
+.fb {
+	background-position: -290px -250px;	
 }

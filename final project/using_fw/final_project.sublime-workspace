@@ -4,24 +4,60 @@
 		"selected_items":
 		[
 			[
-				"text",
-				"text-transform"
+				"paddin",
+				"padding-top"
+			],
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"back",
+				"background"
 			],
 			[
 				"bac",
-				"background"
+				"background-position"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"fon",
+				"font"
+			],
+			[
+				"p",
+				"permalink"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"m",
+				"mobile"
 			],
 			[
 				"text-",
 				"text-align"
-			],
-			[
-				"font",
-				"font-size"
-			],
-			[
-				"margin",
-				"margin-top"
 			],
 			[
 				"margi",
@@ -30,10 +66,6 @@
 			[
 				"padding",
 				"padding-top"
-			],
-			[
-				"back",
-				"background"
 			],
 			[
 				"d",
@@ -124,10 +156,6 @@
 				"text-decoration"
 			],
 			[
-				"marg",
-				"margin-top"
-			],
-			[
 				"clear",
 				"clearfix"
 			],
@@ -162,10 +190,6 @@
 			[
 				"padd",
 				"padding"
-			],
-			[
-				"fon",
-				"font-weight"
 			],
 			[
 				"fo",
@@ -220,34 +244,66 @@
 	"buffers":
 	[
 		{
-			"file": "index.html",
+			"file": "home/index.html",
 			"settings":
 			{
-				"buffer_size": 11714,
+				"buffer_size": 12686,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "permalink.html",
+			"file": "home/div article template.html",
 			"settings":
 			{
-				"buffer_size": 2921,
+				"buffer_size": 1533,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Users/meisha/Desktop/ga/week_06/lesson_11/jq_plugins/css/style.css",
+			"file": "/C/Users/meisha/Desktop/ga/week_09/mashup/index.html",
 			"settings":
 			{
-				"buffer_size": 2158,
+				"buffer_size": 2587,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/C/Users/meisha/Desktop/ga/final project/example/index.html",
+			"file": "/C/Users/meisha/Desktop/ga/week_09/mashup/css/style.css",
 			"settings":
 			{
-				"buffer_size": 5378,
+				"buffer_size": 4229,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "home/css/style.css",
+			"settings":
+			{
+				"buffer_size": 6337,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/meisha/Desktop/ga/final project/example/css/style.css",
+			"settings":
+			{
+				"buffer_size": 2683,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "home/img/sprites-original.css",
+			"settings":
+			{
+				"buffer_size": 2544,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "home/js/js.js",
+			"settings":
+			{
+				"buffer_size": 182,
 				"line_ending": "Windows"
 			}
 		},
@@ -260,43 +316,11 @@
 			}
 		},
 		{
-			"file": "/C/Users/meisha/Desktop/ga/week_06/lesson_11/jq_plugins/index.html",
+			"file": "/C/Users/meisha/Desktop/ga/week_07/lesson_13/class_materials/03_startup_matchmaker_responsive/js/main.js",
 			"settings":
 			{
-				"buffer_size": 3907,
+				"buffer_size": 142,
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "css/style.css",
-			"settings":
-			{
-				"buffer_size": 3745,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Users/meisha/Desktop/ga/final project/example/css/style.css",
-			"settings":
-			{
-				"buffer_size": 1721,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Users/meisha/Desktop/ga/week_07/lesson_14/materials/grid_system/index.html",
-			"settings":
-			{
-				"buffer_size": 3221,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/Users/meisha/Desktop/ga/week_07/lesson_14/materials/grid_system/css/main.css",
-			"settings":
-			{
-				"buffer_size": 253,
-				"line_ending": "Windows"
 			}
 		}
 	],
@@ -324,13 +348,48 @@
 	},
 	"file_history":
 	[
+		"/C/Users/meisha/AppData/Local/Temp/Rar$DRa0.326/sprites.css",
+		"/C/Users/meisha/AppData/Local/Temp/Rar$DRa0.593/sprites.css",
+		"/C/Users/meisha/AppData/Local/Temp/Rar$DRa0.969/sprites.css",
+		"/C/Users/meisha/AppData/Local/Temp/Rar$DRa0.509/sprites.css",
+		"/C/Users/meisha/Desktop/ga/final project/example/css/style.css",
+		"/C/Users/meisha/Desktop/ga/week_07/lesson_14/materials/grid_system/css/main.css",
+		"/C/Users/meisha/Desktop/ga/week_07/lesson_13/class_materials/03_startup_matchmaker_responsive/css/main.css",
+		"/C/Users/meisha/Desktop/ga/week_06/lesson_11/jq_plugins/css/style.css",
+		"/C/Users/meisha/Desktop/ga/week_07/lesson_14/materials/grid_system/index.html",
+		"/C/Users/meisha/Desktop/ga/week_07/lesson_13/class_materials/03_startup_matchmaker_responsive/index.html",
+		"/C/Users/meisha/Desktop/ga/final project/using_fw/html/reign-instaverdict",
+		"/C/Users/meisha/Desktop/ga/final project/using_fw/html/true-detective-review-04",
+		"/C/Users/meisha/Desktop/ga/final project/using_fw/html/itv-women-channel-link",
+		"/C/Users/meisha/Desktop/ga/final project/using_fw/html/skylight-link",
+		"/C/Users/meisha/Desktop/ga/final project/using_fw/html/mistress-contract-ticket",
+		"/C/Users/meisha/Desktop/ga/final project/using_fw/html/tomboy-film-review",
+		"/C/Users/meisha/Desktop/ga/final project/using_fw/html/mistress-contract-theatre",
+		"/C/Users/meisha/Desktop/ga/final project/using_fw/html/hollywood-diversity-report-link",
+		"/C/Users/meisha/Desktop/ga/final project/using_fw/html/true-detective-review-05",
+		"/C/Users/meisha/Desktop/ga/final project/using_fw/html/girls-review",
+		"/C/Users/meisha/Desktop/ga/final project/using_fw/html/selfie-link",
+		"/C/Users/meisha/Desktop/ga/final project/using_fw/html/blurred-lines-ticket",
+		"/C/Users/meisha/Desktop/ga/final project/using_fw/html/true-detective-review-06",
+		"/C/Users/meisha/Desktop/ga/final project/using_fw/html/someone-elses-skin-book",
+		"/C/Users/meisha/Desktop/ga/final project/using_fw/html/lupita-nyongo-link",
+		"/C/Users/meisha/Desktop/ga/final project/using_fw/html/true-detective-review-07",
+		"/C/Users/meisha/Desktop/ga/final project/using_fw/html/hannibal-series-two",
+		"/C/Users/meisha/Desktop/ga/final project/using_fw/html/cathy-davey-round-up",
+		"/C/Users/meisha/Desktop/ga/final project/using_fw/html/true-detective-review-08",
+		"/C/Users/meisha/Desktop/ga/final project/using_fw/html/true-detective-tweets",
+		"/C/Users/meisha/Desktop/ga/final project/using_fw/html/turks-caicos-trailer",
+		"/C/Users/meisha/Desktop/ga/final project/using_fw/html/the-tunnel-link",
+		"/C/Users/meisha/Desktop/ga/final project/using_fw/html/john-ridely-wuote",
+		"/C/Users/meisha/Desktop/ga/final project/using_fw/html/maze-runner-trailer",
+		"/C/Users/meisha/Desktop/ga/final project/using_fw/css/style.css",
+		"/C/Users/meisha/Desktop/ga/final project/using_fw/permalink.html",
+		"/C/Users/meisha/Desktop/ga/final project/using_fw/index.html",
 		"/C/Users/meisha/Desktop/ga/final project/using_fw/test.html",
 		"/C/Users/meisha/Desktop/ga/final project/using_fw/js/js.js",
-		"/C/Users/meisha/Desktop/ga/final project/using_fw/permalink.html",
 		"/C/Users/meisha/Desktop/ga/week_06/lesson_11/jq_plugins/js/app.js",
 		"/C/Users/meisha/Desktop/ga/final project/example/index.html",
 		"/C/Users/meisha/Desktop/ga/week_07/lesson_14/materials/grid_system/css/foundation.min.css",
-		"/C/Users/meisha/Desktop/ga/final project/example/css/style.css",
 		"/C/Users/meisha/Desktop/ga/week_03/lesson_05/startup_matchmaker/css/style.css",
 		"/C/Users/meisha/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
 		"/C/Users/meisha/Desktop/ga/week_02/lesson_04/fashion_blog_part1/index.html",
@@ -341,11 +400,7 @@
 		"/C/Users/meisha/Desktop/ga/week_02/lesson_03/starter_code/template/css/style.css",
 		"/C/Users/meisha/Desktop/ga/week_07/lesson_14/materials/bootstrap_example/index.html",
 		"/C/Users/meisha/Desktop/ga/week_07/lesson_14/materials/bootstrap_example/css/main.css",
-		"/C/Users/meisha/Desktop/ga/week_07/lesson_14/materials/grid_system/index.html",
-		"/C/Users/meisha/Desktop/ga/week_07/lesson_14/materials/grid_system/css/main.css",
 		"/C/Users/meisha/Desktop/ga/week_07/lesson_13/class_materials/02_media-queries-lab/css/style.css",
-		"/C/Users/meisha/Desktop/ga/week_07/lesson_13/class_materials/03_startup_matchmaker_responsive/index.html",
-		"/C/Users/meisha/Desktop/ga/week_07/lesson_13/class_materials/03_startup_matchmaker_responsive/css/main.css",
 		"/C/Users/meisha/Desktop/ga/week_07/lesson_13/class_materials/03_startup_matchmaker_responsive/js/main.js",
 		"/C/Users/meisha/Desktop/ga/week_07/lesson_13/class_materials/02_media-queries-lab/index.html",
 		"/C/Users/meisha/Desktop/ga/week_07/lesson_13/class_materials/01_basic-media-query/css/style.css",
@@ -355,7 +410,6 @@
 		"/C/Users/meisha/Desktop/ga/week_06/lesson_12/materials/car_factory/index.html",
 		"/C/Users/meisha/Desktop/ga/week_06/lesson_12/materials/car_factory/js/main.js",
 		"/C/Users/meisha/Desktop/ga/week_06/lesson_11/jq_plugins/index.html",
-		"/C/Users/meisha/Desktop/ga/week_06/lesson_11/jq_plugins/css/style.css",
 		"/C/Users/meisha/Desktop/ga/week_06/lesson_11/jq_plugins/js/jquery.flexslider-min.js",
 		"/C/Users/meisha/Desktop/ga/week_06/lesson_11/jq_plugins/css/flexslider.css",
 		"/C/Users/meisha/Desktop/ga/week_06/lesson_11/jq_plugins/js/scrolld.js",
@@ -427,6 +481,57 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"menu",
+			"icons",
+			"cefcef",
+			": 64px",
+			"block",
+			"-share",
+			"-gr",
+			"64 {",
+			"48 {",
+			" ;",
+			"  {",
+			"{",
+			"height:",
+			"width:",
+			" 48px;",
+			" 24px;",
+			" ;",
+			"-gr {",
+			"footer",
+			".round",
+			"64",
+			"{",
+			"height: 64px;",
+			"width: 64px;",
+			"twt{",
+			".twt",
+			"pkt",
+			"twt",
+			".round",
+			"background-color",
+			"sizing",
+			"sprite",
+			"Open Sans",
+			"round",
+			"social",
+			"border",
+			"banner",
+			"icon",
+			"float",
+			"recent",
+			"captio",
+			"hov",
+			"tag",
+			".permalink",
+			"bold",
+			"h1",
+			"js",
+			"margin: 5",
+			"a {",
+			"h2",
+			"cef",
 			"img",
 			"<h2 class=\"mobile show-for-medium-up\"><a href=\"#\" class=\"permalink\">Article Title</a></h2>",
 			"h3.",
@@ -485,6 +590,21 @@
 		"regex": false,
 		"replace_history":
 		[
+			"cef",
+			"",
+			":hover",
+			" {",
+			";",
+			" {",
+			"",
+			"height:",
+			"",
+			";",
+			":hover {",
+			"",
+			" {",
+			"",
+			"droid sans",
 			"<h2 class=\"show-for-medium-up\"><a href=\"#\" class=\"permalink\">Article Title</a></h2>",
 			"300px",
 			"3000px",
@@ -516,18 +636,18 @@
 			[
 				{
 					"buffer": 0,
-					"file": "index.html",
+					"file": "home/index.html",
 					"settings":
 					{
-						"buffer_size": 11714,
+						"buffer_size": 12686,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1782,
-								1782
+								9852,
+								9852
 							]
 						],
 						"settings":
@@ -536,25 +656,25 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 626.0,
+						"translation.y": 5346.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "permalink.html",
+					"file": "home/div article template.html",
 					"settings":
 					{
-						"buffer_size": 2921,
+						"buffer_size": 1533,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								929,
+								929
 							]
 						],
 						"settings":
@@ -563,25 +683,58 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 118.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
-				},
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
 				{
 					"buffer": 2,
-					"file": "/C/Users/meisha/Desktop/ga/week_06/lesson_11/jq_plugins/css/style.css",
+					"file": "/C/Users/meisha/Desktop/ga/week_09/mashup/index.html",
 					"settings":
 					{
-						"buffer_size": 2158,
+						"buffer_size": 2587,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1210,
-								1078
+								2150,
+								2150
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1254.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/meisha/Desktop/ga/week_09/mashup/css/style.css",
+					"settings":
+					{
+						"buffer_size": 4229,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2196,
+								2196
 							]
 						],
 						"settings":
@@ -591,34 +744,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 809.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/C/Users/meisha/Desktop/ga/final project/example/index.html",
-					"settings":
-					{
-						"buffer_size": 5378,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3756,
-								5134
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 379.0,
+						"translation.y": 2392.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -626,11 +752,124 @@
 			]
 		},
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 4,
+					"file": "home/css/style.css",
+					"settings":
+					{
+						"buffer_size": 6337,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								774,
+								774
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1260.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/Users/meisha/Desktop/ga/final project/example/css/style.css",
+					"settings":
+					{
+						"buffer_size": 2683,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1778,
+								2683
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3770.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 6,
+					"file": "home/img/sprites-original.css",
+					"settings":
+					{
+						"buffer_size": 2544,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								411,
+								396
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "home/js/js.js",
+					"settings":
+					{
+						"buffer_size": 182,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								182,
+								182
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
 					"file": "/C/Users/meisha/Desktop/ga/week_04/lesson_08/colour_switchercopy/js/main.js",
 					"settings":
 					{
@@ -641,8 +880,8 @@
 						"selection":
 						[
 							[
-								0,
-								29
+								472,
+								472
 							]
 						],
 						"settings":
@@ -658,133 +897,24 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "/C/Users/meisha/Desktop/ga/week_06/lesson_11/jq_plugins/index.html",
-					"settings":
-					{
-						"buffer_size": 3907,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3324,
-								3324
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "css/style.css",
-					"settings":
-					{
-						"buffer_size": 3745,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1502,
-								1502
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1168.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "/C/Users/meisha/Desktop/ga/final project/example/css/style.css",
-					"settings":
-					{
-						"buffer_size": 1721,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1335,
-								1170
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1367.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "/C/Users/meisha/Desktop/ga/week_07/lesson_14/materials/grid_system/index.html",
-					"settings":
-					{
-						"buffer_size": 3221,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								303,
-								346
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
 					"buffer": 9,
-					"file": "/C/Users/meisha/Desktop/ga/week_07/lesson_14/materials/grid_system/css/main.css",
+					"file": "/C/Users/meisha/Desktop/ga/week_07/lesson_13/class_materials/03_startup_matchmaker_responsive/js/main.js",
 					"settings":
 					{
-						"buffer_size": 253,
+						"buffer_size": 142,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								252,
-								253
+								142,
+								142
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -797,7 +927,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 34.0
 	},
 	"input":
 	{
@@ -818,6 +948,18 @@
 				0,
 				2,
 				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			],
+			[
+				1,
+				1,
+				2,
+				2
 			]
 		],
 		"cols":
@@ -829,6 +971,7 @@
 		"rows":
 		[
 			0.0,
+			0.5,
 			1.0
 		]
 	},
@@ -848,16 +991,16 @@
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 500.0,
 		"selected_items":
 		[
 		],
-		"width": 0.0
+		"width": 380.0
 	},
 	"show_minimap": false,
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
 	"side_bar_width": 197.0,
-	"status_bar_visible": true
+	"status_bar_visible": false
 }
